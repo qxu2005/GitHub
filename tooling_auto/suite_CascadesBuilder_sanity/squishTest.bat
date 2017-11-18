@@ -12,7 +12,7 @@ mkdir %RESULTFOLDER%
 
 set RESULTFILE=%RESULTFOLDER%result.xml
 set GTESTRESULTFILE=%RESULTFOLDER%gtestresult.xml
-set EMAILIDS=cxiong,mideng,wtian
+set EMAILIDS=aaa
 
 
 

@@ -13,7 +13,7 @@ mkdir -p $RESULTFOLDER
 
 RESULTFILE=$RESULTFOLDER/result.xml
 GTESTRESULTFILE=$RESULTFOLDER/gtestresult.xml
-EMAILIDS=cxiong,mideng,wtian
+EMAILIDS=aaa
 
 
 unamestr=`uname`

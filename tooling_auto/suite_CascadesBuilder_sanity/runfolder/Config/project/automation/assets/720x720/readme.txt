@@ -1,0 +1,1 @@
+copy qml fiels under qmlsrc fodler for 720x720 preview test

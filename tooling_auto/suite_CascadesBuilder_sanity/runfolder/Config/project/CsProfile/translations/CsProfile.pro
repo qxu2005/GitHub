@@ -1,0 +1,1 @@
+include (../CsProfile.pro)

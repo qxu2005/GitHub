@@ -1,0 +1,206 @@
+:Applicable Debug Tokens.Create..._Button	{caption='Create...' container=':Applicable Debug Tokens_Group' isvisible='true' type='org.eclipse.swt.widgets.Button'}
+:Applicable Debug Tokens_Group	{caption='Applicable Debug Tokens' isvisible='true' type='org.eclipse.swt.widgets.Group' window=':_Shell'}
+:Applicable Debug Tokens_Table	{container=':Applicable Debug Tokens_Group' isvisible='true' type='org.eclipse.swt.widgets.Table'}
+:BlackBerry Example Project.Finish_Button	{caption='Finish' isvisible='true' type='org.eclipse.swt.widgets.Button' window=':BlackBerry Example Project_Shell'}
+:BlackBerry Example Project.Next >_Button	{caption='Next >' isvisible='true' type='org.eclipse.swt.widgets.Button' window=':BlackBerry Example Project_Shell'}
+:BlackBerry Example Project_Shell	{caption='BlackBerry Example Project' isvisible='true' type='org.eclipse.swt.widgets.Shell'}
+:BlackBerry Example Project_Table	{isvisible='true' type='org.eclipse.swt.widgets.Table' window=':BlackBerry Example Project_Shell'}
+:BlackBerry Tools_Menu	{caption='BlackBerry Tools' container=':Project Explorer_Tree' menuStyle='SWT.DROP_DOWN' type='org.eclipse.swt.widgets.Menu'}
+:Build Configurations_Menu	{caption='Build Configurations' container=':Project Explorer_Tree' menuStyle='SWT.DROP_DOWN' type='org.eclipse.swt.widgets.Menu'}
+:Build Project_Shell	{caption='Build Project' isvisible='true' type='org.eclipse.swt.widgets.Shell'}
+:Build.Makefile_Button	{caption='Makefile' container=':New BlackBerry Project.Build_Group' isvisible='true' type='org.eclipse.swt.widgets.Button'}
+:Build.Managed_Button	{caption='Managed' container=':New BlackBerry Project.Build_Group' isvisible='true' type='org.eclipse.swt.widgets.Button'}
+:Build_ToolItem	{caption='Build' container=':C/C++ - QNX Momentics IDE_ToolBar' type='org.eclipse.swt.widgets.ToolItem'}
+:C/C++ - QNX Momentics IDE.Project Explorer_CTabItem	{caption='Project Explorer' type='org.eclipse.swt.custom.CTabItem' window=':C/C++ - QNX Momentics IDE_Shell'}
+:C/C++ - QNX Momentics IDE_Menu	{menuStyle='SWT.BAR' type='org.eclipse.swt.widgets.Menu' window=':C/C++ - QNX Momentics IDE_Shell'}
+:C/C++ - QNX Momentics IDE_Shell	{caption?='*Momentics IDE' isvisible='true' type='org.eclipse.swt.widgets.Shell'}
+:C/C++ - QNX Momentics IDE_ToolBar	{firstItemText='Build' isvisible='true' type='org.eclipse.swt.widgets.ToolBar' window=':C/C++ - QNX Momentics IDE_Shell'}
+:C/C++ - QNX Momentics IDE_ToolBar_Right	{firstItemText='Open Perspective' isvisible='true' type='org.eclipse.swt.widgets.ToolBar' window=':C/C++ - QNX Momentics IDE_Shell'}
+:C/C++ - Welcome - QNX Momentics IDE.Welcome_CTabItem	{caption='Welcome' type='org.eclipse.swt.custom.CTabItem' window=':C/C++ - QNX Momentics IDE_Shell'}
+:Cancel_Button	{caption='Cancel' isvisible='true' type='org.eclipse.swt.widgets.Button' window=':_Shell'}
+:Component_CTabFolder	{firstTabCaption='Components' isvisible='true' type='org.eclipse.swt.custom.CTabFolder' window=':C/C++ - QNX Momentics IDE_Shell'}
+:Component_ToolBar	{container=':Component_CTabFolder' firstItemText='Icon View' isvisible='true' type='org.eclipse.swt.widgets.ToolBar'}
+:Components_CTabItem	{caption='Components' type='org.eclipse.swt.custom.CTabItem' window=':C/C++ - QNX Momentics IDE_Shell'}
+:Confirm Delete.Also delete any associated file(s) with this target?_Button	{caption='Also delete any associated file(s) with this target?' isvisible='true' type='org.eclipse.swt.widgets.Button' window=':Confirm Delete_Shell'}
+:Confirm Delete.Yes_Button	{caption='Yes' isvisible='true' type='org.eclipse.swt.widgets.Button' window=':Confirm Delete_Shell'}
+:Confirm Delete_Shell	{caption='Confirm Delete' isvisible='true' type='org.eclipse.swt.widgets.Shell'}
+:Connection.Auto Discover_Button	{caption='Auto Discover...' container=':New BlackBerry Target.Connection_Group' isvisible='true' type='org.eclipse.swt.widgets.Button'}
+:Console_CTabItem	{caption='Console' type='org.eclipse.swt.custom.CTabItem' window=':C/C++ - QNX Momentics IDE_Shell'}
+:Console_StyledText	{container=':Console_CTabItem' isvisible='true' type='org.eclipse.swt.custom.StyledText'}
+:Credentials.Password:_Label	{caption='Password:' container=':New BlackBerry Target.Credentials_Group' isvisible='true' type='org.eclipse.swt.widgets.Label'}
+:Credentials.Password:_Text	{container=':New BlackBerry Target.Credentials_Group' isvisible='true' leftWidget=':Credentials.Password:_Label' type='org.eclipse.swt.widgets.Text'}
+:Debug As_Menu	{caption='Debug As' container=':Project Explorer_Tree' menuStyle='SWT.DROP_DOWN' type='org.eclipse.swt.widgets.Menu'}
+:Debug Token Details..._Button	{caption='Debug Token Details...' isvisible='true' type='org.eclipse.swt.widgets.Button' window=':Properties for device_Shell'}
+:Debug_CTabFolder	{firstTabCaption='Debug' isvisible='true' type='org.eclipse.swt.custom.CTabFolder' window=':C/C++ - QNX Momentics IDE_Shell'}
+:Debug_CTabItem	{caption='Debug' type='org.eclipse.swt.custom.CTabItem' window=':C/C++ - QNX Momentics IDE_Shell'}
+:Debug_Right_CTabFolder	{firstTabCaption='Variables' isvisible='true' type='org.eclipse.swt.custom.CTabFolder' window=':C/C++ - QNX Momentics IDE_Shell'}
+:Debug_Right_ToolBar	{container=':Debug_Right_CTabFolder' firstItemText='\\'Show Type Names\\' unavailable when columns are displayed.\nConfigure columns to display type names.' isvisible='true' type='org.eclipse.swt.widgets.ToolBar'}
+:Debug_ToolBar	{container=':Debug_CTabFolder' firstItemText='Remove All Terminated Launches' isvisible='true' type='org.eclipse.swt.widgets.ToolBar'}
+:Debug_Tree	{container=':Debug_CTabItem' isvisible='true' type='org.eclipse.swt.widgets.Tree'}
+:Debug_Variables_CTabItem	{caption='Variables' type='org.eclipse.swt.custom.CTabItem' window=':C/C++ - QNX Momentics IDE_Shell'}
+:Delete Resources.Delete project contents on disk (cannot be undone)_Button	{caption='Delete project contents on disk (cannot be undone)' isvisible='true' type='org.eclipse.swt.widgets.Button' window=':Delete Resources_Shell'}
+:Delete Resources.OK_Button	{caption='OK' isvisible='true' type='org.eclipse.swt.widgets.Button' window=':Delete Resources_Shell'}
+:Delete Resources_Shell	{caption='Delete Resources' isvisible='true' type='org.eclipse.swt.widgets.Shell'}
+:Deployment.Allow debugging and profiling with mismatched symbols (not recommended)_Button	{caption='Allow debugging and profiling with mismatched symbols (not recommended)' container=':Preferences.Deployment_Group' isvisible='true' type='org.eclipse.swt.widgets.Button'}
+:Deployment.Ignore API Level mismatch when running an app (not recommended)_Button	{caption='Ignore API Level mismatch when running an app (not recommended)' container=':Preferences.Deployment_Group' isvisible='true' type='org.eclipse.swt.widgets.Button'}
+:Device Manager.Close_Button	{caption='Close' isvisible='true' type='org.eclipse.swt.widgets.Button' window=':Device Manager_Shell'}
+:Device Manager.Devices_CTabItem	{caption='Devices' type='org.eclipse.swt.custom.CTabItem' window=':Device Manager_Shell'}
+:Device Manager_Shell	{caption='Device Manager' isvisible='true' type='org.eclipse.swt.widgets.Shell'}
+:Device_CListCombo	{isvisible='true' occurrence='2' type='com.qnx.tools.utils.ui.controls.CListCombo' window=':C/C++ - QNX Momentics IDE_Shell'}
+:Devices.Properties_Button	{caption='Properties' container=':Device Manager.Devices_CTabItem' isvisible='true' type='org.eclipse.swt.widgets.Button'}
+:Disconnect_ToolItem	{caption='Disconnect' container=':Debug_ToolBar' type='org.eclipse.swt.widgets.ToolItem'}
+:Export.Next >_Button	{caption='Next >' isvisible='true' type='org.eclipse.swt.widgets.Button' window=':Export_Shell'}
+:Export_Shell	{caption='Export' isvisible='true' type='org.eclipse.swt.widgets.Shell'}
+:Export_Tree	{isvisible='true' type='org.eclipse.swt.widgets.Tree' window=':Export_Shell'}
+:Expressions_CTabItem	{caption='Expressions' type='org.eclipse.swt.custom.CTabItem' window=':C/C++ - QNX Momentics IDE_Shell'}
+:Expressions_StyledText	{container=':Expressions_CTabItem' isvisible='true' type='org.eclipse.swt.custom.StyledText'}
+:Expressions_Text	{container=':Expressions_CTabItem' isvisible='true' type='org.eclipse.swt.widgets.Text'}
+:Expressions_Tree	{container=':Expressions_CTabItem' isvisible='true' type='org.eclipse.swt.widgets.Tree'}
+:File_Menu	{caption='File' container=':C/C++ - QNX Momentics IDE_Menu' menuStyle='SWT.DROP_DOWN' type='org.eclipse.swt.widgets.Menu'}
+:Finish_Button	{caption='Finish' isvisible='true' type='org.eclipse.swt.widgets.Button' window=':_Shell'}
+:Go to Line.OK_Button	{caption='OK' isvisible='true' type='org.eclipse.swt.widgets.Button' window=':Go to Line_Shell'}
+:Go to Line_Shell	{caption='Go to Line' isvisible='true' type='org.eclipse.swt.widgets.Shell'}
+:Icon View_ToolItem	{caption='Icon View' container=':Component_ToolBar' type='org.eclipse.swt.widgets.ToolItem'}
+:Import.Copy projects into workspace_Button	{caption='Copy projects into workspace' isvisible='true' type='org.eclipse.swt.widgets.Button' window=':Import_Shell'}
+:Import.Finish_Button	{caption='Finish' isvisible='true' type='org.eclipse.swt.widgets.Button' window=':Import_Shell'}
+:Import.Next >_Button	{caption='Next >' isvisible='true' type='org.eclipse.swt.widgets.Button' window=':Import_Shell'}
+:Import.Select root directory:_Button	{caption='Select root directory:' isvisible='true' type='org.eclipse.swt.widgets.Button' window=':Import_Shell'}
+:Import.Select root directory:_Text	{isvisible='true' leftWidget=':Import.Select root directory:_Button' type='org.eclipse.swt.widgets.Text' window=':Import_Shell'}
+:Import_Shell	{caption='Import' isvisible='true' type='org.eclipse.swt.widgets.Shell'}
+:Import_Tree	{isvisible='true' type='org.eclipse.swt.widgets.Tree' window=':Import_Shell'}
+:Install/Uninstall BAR_Shell	{caption='Install/Uninstall BAR' isvisible='true' type='org.eclipse.swt.widgets.Shell'}
+:Installing runtimes....Run in Background_Button	{caption='Run in Background' isvisible='true' type='org.eclipse.swt.widgets.Button' window=':Installing runtimes..._Shell'}
+:Installing runtimes....info_Label	{isvisible='true' occurrence='2' type='org.eclipse.swt.widgets.Label' window=':Installing runtimes..._Shell'}
+:Installing runtimes..._Shell	{caption='Installing runtimes...' isvisible='true' type='org.eclipse.swt.widgets.Shell'}
+:Language.C++_Button	{caption='C++' container=':New BlackBerry Project.Language_Group' isvisible='true' type='org.eclipse.swt.widgets.Button'}
+:Language.C_Button	{caption='C' container=':New BlackBerry Project.Language_Group' isvisible='true' type='org.eclipse.swt.widgets.Button'}
+:ManagerDevice	{isvisible='true' occurrence='2' type='com.qnx.tools.utils.ui.controls.DefaultListItem' window=':_Shell'}
+:Missing Debug Symbols.Yes_Button	{caption='Yes' isvisible='true' type='org.eclipse.swt.widgets.Button' window=':Missing Debug Symbols_Shell'}
+:Missing Debug Symbols_Shell	{caption='Missing Debug Symbols' isvisible='true' type='org.eclipse.swt.widgets.Shell'}
+:New BlackBerry Project.Adobe AIR_Label	{caption='Adobe AIR' isvisible='true' type='org.eclipse.swt.widgets.Label' window=':New BlackBerry Project_Shell'}
+:New BlackBerry Project.BlackBerry WebWorks_Label	{caption='BlackBerry WebWorks' isvisible='true' type='org.eclipse.swt.widgets.Label' window=':New BlackBerry Project_Shell'}
+:New BlackBerry Project.Build_Group	{caption='Build' isvisible='true' type='org.eclipse.swt.widgets.Group' window=':New BlackBerry Project_Shell'}
+:New BlackBerry Project.Cancel_Button	{caption='Cancel' isvisible='true' type='org.eclipse.swt.widgets.Button' window=':New BlackBerry Project_Shell'}
+:New BlackBerry Project.Cascades_Label	{caption='Cascades' isvisible='true' type='org.eclipse.swt.widgets.Label' window=':New BlackBerry Project_Shell'}
+:New BlackBerry Project.Core Native_Label	{caption='Core Native' isvisible='true' type='org.eclipse.swt.widgets.Label' window=':New BlackBerry Project_Shell'}
+:New BlackBerry Project.Finish_Button	{caption='Finish' isvisible='true' type='org.eclipse.swt.widgets.Button' window=':New BlackBerry Project_Shell'}
+:New BlackBerry Project.Language_Group	{caption='Language' isvisible='true' type='org.eclipse.swt.widgets.Group' window=':New BlackBerry Project_Shell'}
+:New BlackBerry Project.Next >_Button	{caption='Next >' isvisible='true' type='org.eclipse.swt.widgets.Button' window=':New BlackBerry Project_Shell'}
+:New BlackBerry Project.Project name:_Label	{caption='Project name:' isvisible='true' type='org.eclipse.swt.widgets.Label' window=':New BlackBerry Project_Shell'}
+:New BlackBerry Project.Project name:_Text	{isvisible='true' leftWidget=':New BlackBerry Project.Project name:_Label' type='org.eclipse.swt.widgets.Text' window=':New BlackBerry Project_Shell'}
+:New BlackBerry Project.Shared_Label	{caption='Shared' isvisible='true' type='org.eclipse.swt.widgets.Label' window=':New BlackBerry Project_Shell'}
+:New BlackBerry Project.Static_Label	{caption='Static' isvisible='true' type='org.eclipse.swt.widgets.Label' window=':New BlackBerry Project_Shell'}
+:New BlackBerry Project_Composite	{isvisible='true' type='org.eclipse.swt.widgets.Composite' window=':New BlackBerry Project_Shell'}
+:New BlackBerry Project_List	{isvisible='true' type='org.eclipse.swt.widgets.List' window=':New BlackBerry Project_Shell'}
+:New BlackBerry Project_Shell	{caption='New BlackBerry Project' isvisible='true' type='org.eclipse.swt.widgets.Shell'}
+:New BlackBerry Project_Table	{isvisible='true' type='org.eclipse.swt.widgets.Table' window=':New BlackBerry Project_Shell'}
+:New BlackBerry Target.Cancel_Button	{caption='Cancel' isvisible='true' type='org.eclipse.swt.widgets.Button' window=':New BlackBerry Target_Shell'}
+:New BlackBerry Target.Connection_Group	{caption='Connection' isvisible='true' type='org.eclipse.swt.widgets.Group' window=':New BlackBerry Target_Shell'}
+:New BlackBerry Target.Credentials_Group	{caption='Credentials' isvisible='true' type='org.eclipse.swt.widgets.Group' window=':New BlackBerry Target_Shell'}
+:New BlackBerry Target.Finish_Button	{caption='Finish' isvisible='true' type='org.eclipse.swt.widgets.Button' window=':New BlackBerry Target_Shell'}
+:New BlackBerry Target_Shell	{caption='New BlackBerry Target' isvisible='true' type='org.eclipse.swt.widgets.Shell'}
+:New Example.Next >_Button	{caption='Next >' isvisible='true' type='org.eclipse.swt.widgets.Button' window=':New Example_Shell'}
+:New Example_Composite	{isvisible='true' occurrence='10' type='org.eclipse.swt.widgets.Composite' window=':New Example_Shell'}
+:New Example_Shell	{caption='New Example' isvisible='true' type='org.eclipse.swt.widgets.Shell'}
+:New Example_Tree	{isvisible='true' type='org.eclipse.swt.widgets.Tree' window=':New Example_Shell'}
+:New File.File name:_Label	{caption='File name:' isvisible='true' type='org.eclipse.swt.widgets.Label' window=':New File_Shell'}
+:New File.File name:_Text	{isvisible='true' leftWidget=':New File.File name:_Label' type='org.eclipse.swt.widgets.Text' window=':New File_Shell'}
+:New File.Finish_Button	{caption='Finish' isvisible='true' type='org.eclipse.swt.widgets.Button' window=':New File_Shell'}
+:New File_Shell	{caption='New File' isvisible='true' type='org.eclipse.swt.widgets.Shell'}
+:New launch configuration_ToolItem	{caption='New launch configuration' container=':Run Configurations_ToolBar' type='org.eclipse.swt.widgets.ToolItem'}
+:New_Menu	{caption='New' container=':C/C++ - QNX Momentics IDE_Menu' menuStyle='SWT.DROP_DOWN' type='org.eclipse.swt.widgets.Menu'}
+:OK_Button	{caption='OK' isvisible='true' type='org.eclipse.swt.widgets.Button' window=':_Shell'}
+:OK_Button_2	{caption='OK' isvisible='true' type='org.eclipse.swt.widgets.Button' window=':_Shell_2'}
+:Open Associated Perspective?.Yes_Button	{caption='Yes' isvisible='true' type='org.eclipse.swt.widgets.Button' window=':Open Associated Perspective?_Shell'}
+:Open Associated Perspective?_Shell	{caption='Open Associated Perspective?' isvisible='true' type='org.eclipse.swt.widgets.Shell'}
+:Open Perspective.OK_Button	{caption='OK' isvisible='true' type='org.eclipse.swt.widgets.Button' window=':Open Perspective_Shell'}
+:Open Perspective_Shell	{caption='Open Perspective' isvisible='true' type='org.eclipse.swt.widgets.Shell'}
+:Open Perspective_Table	{isvisible='true' type='org.eclipse.swt.widgets.Table' window=':Open Perspective_Shell'}
+:Open Perspective_ToolItem	{caption='Open Perspective' container=':C/C++ - QNX Momentics IDE_ToolBar_Right' type='org.eclipse.swt.widgets.ToolItem'}
+:Outline_CTabItem	{caption='Outline' type='org.eclipse.swt.custom.CTabItem' window=':C/C++ - QNX Momentics IDE_Shell'}
+:Outline_Tree	{container=':Outline_CTabItem' isvisible='true' type='org.eclipse.swt.widgets.Tree'}
+:Password:_Label_2	{caption='Password:' isvisible='true' type='org.eclipse.swt.widgets.Label' window=':_Shell_2'}
+:Password:_Label_Export	{caption='Password:' isvisible='true' type='org.eclipse.swt.widgets.Label' window=':_Shell'}
+:Password:_Text_2	{isvisible='true' leftWidget=':Password:_Label_2' type='org.eclipse.swt.widgets.Text' window=':_Shell_2'}
+:Password:_Text_Export	{isvisible='true' leftWidget=':Password:_Label_Export' type='org.eclipse.swt.widgets.Text' window=':_Shell'}
+:Preferences.Deployment_Group	{caption='Deployment' isvisible='true' type='org.eclipse.swt.widgets.Group' window=':Preferences_Shell'}
+:Preferences.OK_Button	{caption='OK' isvisible='true' type='org.eclipse.swt.widgets.Button' window=':Preferences_Shell'}
+:Preferences.SDK Selection_Group	{caption='SDK Selection' isvisible='true' type='org.eclipse.swt.widgets.Group' window=':Preferences_Shell'}
+:Preferences.SDK:_Combo	{container=':Preferences.SDK Selection_Group' isvisible='true' leftWidget=':Preferences.Select_SDK:_Label' type='org.eclipse.swt.widgets.Combo'}
+:Preferences.SDK_Version	{caption~='[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}' container=':Preferences.SDK Selection_Group' isvisible='true' type='org.eclipse.swt.widgets.Label'}
+:Preferences.Select_SDK:_Label	{caption='Select SDK:' container=':Preferences.SDK Selection_Group' isvisible='true' type='org.eclipse.swt.widgets.Label'}
+:Preferences_Shell	{caption='Preferences' isvisible='true' type='org.eclipse.swt.widgets.Shell'}
+:Preferences_Tree	{isvisible='true' type='org.eclipse.swt.widgets.Tree' window=':Preferences_Shell'}
+:Preferences.Apply_Button	{caption='Apply' isvisible='true' type='org.eclipse.swt.widgets.Button' window=':Preferences_Shell'}
+:Preferences.Header Comments_Button	{caption='Header Comments' isvisible='true' type='org.eclipse.swt.widgets.Button' window=':Preferences_Shell'}
+:Preferences.Enable JavaScript Debugging_Button	{caption='Enable JavaScript Debugging' isvisible='true' type='org.eclipse.swt.widgets.Button' window=':Preferences_Shell'}
+:Profile_Events_TabItem	{caption='Events' type='org.eclipse.swt.widgets.TabItem' window=':C/C++ - QNX Momentics IDE_Shell'}
+:Profile_Events_Table	{container=':Profile_Events_TabItem' isvisible='true' type='org.eclipse.swt.widgets.Table'}
+:Profile_Events_TabItem_2	{caption='Events' occurrence='1' type='org.eclipse.swt.widgets.TabItem' window=':C/C++ - QNX Momentics IDE_Shell'}
+:Profile_Events_Table_2	{container=':Profile_Events_TabItem_2' isvisible='true' type='org.eclipse.swt.widgets.Table'}
+:Project Explorer_Tree	{container=':C/C++ - QNX Momentics IDE.Project Explorer_CTabItem' isvisible='true' type='org.eclipse.swt.widgets.Tree'}
+:Project Explorer_Tree_Menu	{container=':Project Explorer_Tree' menuStyle='SWT.POP_UP' type='org.eclipse.swt.widgets.Menu'}
+:Project_Menu	{caption='Project' container=':C/C++ - QNX Momentics IDE_Menu' menuStyle='SWT.DROP_DOWN' type='org.eclipse.swt.widgets.Menu'}
+:Project_New_Menu	{caption='New' container=':Project Explorer_Tree' menuStyle='SWT.DROP_DOWN' type='org.eclipse.swt.widgets.Menu'}
+:Projects_CListCombo	{isvisible='true' occurrence='1' type='com.qnx.tools.utils.ui.controls.CListCombo' window=':C/C++ - QNX Momentics IDE_Shell'}
+:Properties for device.OK_Button	{caption='OK' isvisible='true' type='org.eclipse.swt.widgets.Button' window=':Properties for device_Shell'}
+:Properties for device_Shell	{caption?='Properties for*' isvisible='true' type='org.eclipse.swt.widgets.Shell'}
+:QML Properties.ID_Label	{caption='ID' container=':QML_Properties_CTabItem' isvisible='true' type='org.eclipse.swt.widgets.Label'}
+:QML Properties.ID_Text	{container=':QML_Properties_CTabItem' isvisible='true' leftWidget=':QML Properties.ID_Label' type='org.eclipse.swt.widgets.Text'}
+:QML Properties_Text	{container=':QML_Properties_CTabItem' isvisible='true' occurrence='1' type='org.eclipse.swt.widgets.Text'}
+:QML_Properties_CTabItem	{caption='QML Properties' type='org.eclipse.swt.custom.CTabItem' window=':C/C++ - QNX Momentics IDE_Shell'}
+:Remove All Expressions.Yes_Button	{caption='Yes' isvisible='true' type='org.eclipse.swt.widgets.Button' window=':Remove All Expressions_Shell'}
+:Remove All Expressions_Shell	{caption='Remove All Expressions' isvisible='true' type='org.eclipse.swt.widgets.Shell'}
+:Remove All Expressions_ToolItem	{caption='Remove All Expressions' container=':Debug_Right_ToolBar' type='org.eclipse.swt.widgets.ToolItem'}
+:Resume_ToolItem	{caption?='Resume*' container=':Debug_ToolBar' type='org.eclipse.swt.widgets.ToolItem'}
+:Run As_Menu	{caption='Run As' container=':Project Explorer_Tree' menuStyle='SWT.DROP_DOWN' type='org.eclipse.swt.widgets.Menu'}
+:Run Configurations.Run_Button	{caption='Run' isvisible='true' type='org.eclipse.swt.widgets.Button' window=':Run Configurations_Shell'}
+:Run Configurations.Tools_CTabItem	{caption='Tools' type='org.eclipse.swt.custom.CTabItem' window=':Run Configurations_Shell'}
+:Run Configurations_Shell	{caption='Run Configurations' isvisible='true' type='org.eclipse.swt.widgets.Shell'}
+:Run Configurations_ToolBar	{firstItemText='New launch configuration' isvisible='true' type='org.eclipse.swt.widgets.ToolBar' window=':Run Configurations_Shell'}
+:Run Configurations_Tree	{isvisible='true' type='org.eclipse.swt.widgets.Tree' window=':Run Configurations_Shell'}
+:Set Active_Menu	{caption='Set Active' container=':Project Explorer_Tree' menuStyle='SWT.DROP_DOWN' type='org.eclipse.swt.widgets.Menu'}
+:Set Value.OK_Button	{caption='OK' isvisible='true' type='org.eclipse.swt.widgets.Button' window=':Set Value_Shell'}
+:Set Value_Shell	{caption='Set Value' isvisible='true' type='org.eclipse.swt.widgets.Shell'}
+:Show View_Menu	{caption='Show View' container=':C/C++ - QNX Momentics IDE_Menu' menuStyle='SWT.DROP_DOWN' type='org.eclipse.swt.widgets.Menu'}
+:Step Into_ToolItem	{caption='Step Into (F5)' container=':Debug_ToolBar' type='org.eclipse.swt.widgets.ToolItem'}
+:Step Over_ToolItem	{caption='Step Over (F6)' container=':Debug_ToolBar' type='org.eclipse.swt.widgets.ToolItem'}
+:Step Return_ToolItem	{caption='Step Return (F7)' container=':Debug_ToolBar' type='org.eclipse.swt.widgets.ToolItem'}
+:Stop_ToolItem	{caption='Stop' container=':C/C++ - QNX Momentics IDE_ToolBar' type='org.eclipse.swt.widgets.ToolItem'}
+:System_Information.Target Navigator_CTabItem	{caption='Target Navigator' type='org.eclipse.swt.custom.CTabItem' window=':System_Information_Shell'}
+:System_Information_Shell	{caption?='QNX System Information - *' isvisible='true' type='org.eclipse.swt.widgets.Shell'}
+:Target_Navigator_Menu	{container=':Target_Navigator_Tree' menuStyle='SWT.POP_UP' type='org.eclipse.swt.widgets.Menu'}
+:Target_Navigator_Tree	{container=':System_Information.Target Navigator_CTabItem' isvisible='true' type='org.eclipse.swt.widgets.Tree'}
+:Target_Table	{isvisible='true' type='org.eclipse.swt.widgets.Table' window=':_Shell'}
+:Tools selection.OK_Button	{caption='OK' isvisible='true' type='org.eclipse.swt.widgets.Button' window=':Tools selection_Shell'}
+:Tools selection.Select tools to run on this launch..._Label	{caption='Select tools to run on this launch...' isvisible='true' type='org.eclipse.swt.widgets.Label' window=':Tools selection_Shell'}
+:Tools selection.Select tools to run on this launch..._Table	{aboveWidget=':Tools selection.Select tools to run on this launch..._Label' isvisible='true' type='org.eclipse.swt.widgets.Table' window=':Tools selection_Shell'}
+:Tools selection_Shell	{caption='Tools selection' isvisible='true' type='org.eclipse.swt.widgets.Shell'}
+:Tools.Add/Delete Tool..._Button	{caption='Add/Delete Tool...' container=':Run Configurations.Tools_CTabItem' isvisible='true' type='org.eclipse.swt.widgets.Button'}
+:Tools.Start profiling during application launch_Button	{caption='Start profiling during application launch' container=':Run Configurations.Tools_CTabItem' isvisible='true' type='org.eclipse.swt.widgets.Button'}
+:Variables_Menu	{container=':Variables_Tree' menuStyle='SWT.POP_UP' type='org.eclipse.swt.widgets.Menu'}
+:Variables_StyledText	{container=':Debug_Variables_CTabItem' isvisible='true' type='org.eclipse.swt.custom.StyledText'}
+:Variables_Tree	{container=':Debug_Variables_CTabItem' isvisible='true' type='org.eclipse.swt.widgets.Tree'}
+:Welcome_CTabCloseBox	{container=':C/C++ - Welcome - QNX Momentics IDE.Welcome_CTabItem' type='com.froglogic.squish.swt.CTabCloseBox'}
+:Window_Menu	{caption='Window' container=':C/C++ - QNX Momentics IDE_Menu' menuStyle='SWT.DROP_DOWN' type='org.eclipse.swt.widgets.Menu'}
+:Workspace Launcher.OK_Button	{caption='OK' isvisible='true' type='org.eclipse.swt.widgets.Button' window=':Workspace Launcher_Shell'}
+:Workspace Launcher.Workspace:_Combo	{isvisible='true' leftWidget=':Workspace Launcher.Workspace:_Label' type='org.eclipse.swt.widgets.Combo' window=':Workspace Launcher_Shell'}
+:Workspace Launcher.Workspace:_Label	{caption='Workspace:' isvisible='true' type='org.eclipse.swt.widgets.Label' window=':Workspace Launcher_Shell'}
+:Workspace Launcher_Shell	{caption='Workspace Launcher' isvisible='true' type='org.eclipse.swt.widgets.Shell'}
+:_Shell	{caption='' isvisible='true' type='org.eclipse.swt.widgets.Shell'}
+:_Shell_2	{caption='' isvisible='true' occurrence='1' type='org.eclipse.swt.widgets.Shell'}
+:_StyledText	{isvisible='true' type='org.eclipse.swt.custom.StyledText' window=':_Shell'}
+:_Tree	{isvisible='true' type='org.eclipse.swt.widgets.Tree' window=':_Shell'}
+:Deliver Signal.OK_Button	{caption='OK' isvisible='true' type='org.eclipse.swt.widgets.Button' window=':Deliver Signal_Shell'}
+:Deliver Signal_Shell	{caption='Deliver Signal' isvisible='true' type='org.eclipse.swt.widgets.Shell'}
+
+:Find/Replace.Close_Button	{caption='Close' isvisible='true' type='org.eclipse.swt.widgets.Button' window=':Find/Replace_Shell'}
+:Find/Replace.Find:_Combo	{isvisible='true' leftWidget=':Find/Replace.Find:_Label' type='org.eclipse.swt.widgets.Combo' window=':Find/Replace_Shell'}
+:Find/Replace.Find:_Label	{caption='Find:' isvisible='true' type='org.eclipse.swt.widgets.Label' window=':Find/Replace_Shell'}
+:Find/Replace.Replace All_Button	{caption='Replace All' isvisible='true' type='org.eclipse.swt.widgets.Button' window=':Find/Replace_Shell'}
+:Find/Replace.Replace with:_Combo	{isvisible='true' leftWidget=':Find/Replace.Replace with:_Label' type='org.eclipse.swt.widgets.Combo' window=':Find/Replace_Shell'}
+:Find/Replace.Replace with:_Label	{caption='Replace with:' isvisible='true' type='org.eclipse.swt.widgets.Label' window=':Find/Replace_Shell'}
+:Find/Replace_Shell	{caption='Find/Replace' isvisible='true' type='org.eclipse.swt.widgets.Shell'}
+
+:Authentication Required.OK_Button	{caption='OK' isvisible='true' type='org.eclipse.swt.widgets.Button' window=':Authentication Required_Shell'}
+:Authentication Required_Shell	{caption='Authentication Required' isvisible='true' type='org.eclipse.swt.widgets.Shell'}
